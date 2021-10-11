@@ -1,0 +1,14 @@
+{
+"require": {
+    "php": ">=7.2.5",
+
+    "silex/silex": "~2.3.0",
+    "symfony/finder": "~5.3.7",
+    "symfony/http-foundation": "~5.3.7"
+},
+    
+"config": {
+    "bin-dir": "bin",
+    "vendor-dir": "tmp/composer/"
+}
+}

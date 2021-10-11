@@ -1,0 +1,37 @@
+<?php
+
+/*
+  General configuration of Cakebox
+*/
+$app["cakebox.root"] = "/home/cakebox/"; // Root directory Cakebox have to scan
+$app["cakebox.access"] = "/access/"; // Alias used in web server for direct access
+$app["cakebox.language"] = "fr"; //Language of Cakebox. Could be : fr, en, it
+$app["cakebox.host"] = ""; // Domain where Cakebox is hosted
+$app["cakebox.custom_port"] = ""; // Only if you have set a custom port (different than 80 and 443) to access Cakebox
+
+/*
+  Directory settings
+*/
+$app["directory.ignoreDotFiles"] = true;
+$app["directory.ignore"] = "//"; // Regex for files exclusion. For exemple : "/(\.nfo|\.test)$/"
+
+/*
+  Web player settings
+*/
+$app["player.default_type"] = "html5"; // Currently html5 only
+$app["player.auto_play"] = "yes"; // "yes" or "no"
+
+/*
+  User rights
+*/
+$app["rights.canPlayMedia"] = true;
+$app["rights.canArchiveDirectory"] = false;
+$app["rights.canDelete"] = false;
+
+/*
+  Betaseries account
+  NB: Ask API key here http://www.betaseries.com/api/
+*/
+$app["bs.login"] = "";
+$app["bs.passwd"] = "";
+$app["bs.apikey"] = "";
